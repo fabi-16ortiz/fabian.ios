@@ -1,0 +1,47 @@
+main{
+    height: 1000px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+body{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+header{
+    margin: 5px; 
+    padding: 5px;
+    text-align: center;
+}
+h1{
+    text-align: center;
+    color: orangered;
+    font-size: 40px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    width: 10%;
+    text-align: center;
+}
+footer{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    justify-content: space-between;
+    margin: 5px;
+    width: 80%;
+    display: flex;
+    padding: 5px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 70%;
+}
